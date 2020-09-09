@@ -1,1 +1,29 @@
 # Write your methods here
+
+def loop_message_five_times(string)
+  5.times do
+    puts string
+  end
+end
+
+loop_message_n_times(string, n)
+ n.times do
+   puts string
+  end
+end
+
+def output_array(array)
+  counter = 0
+  
+  while counter < array.length
+    puts array[counter]
+  end
+end
+
+def return_string_array(array)
+  counter = 0
+  
+  while counter < array.length
+    array[counter] = array[counter].to_s
+  end
+end
